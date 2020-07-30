@@ -1,7 +1,7 @@
 using System;
 
-namespace exercicios {
-    class Exercicios {
+namespace ProwayExercises {
+    class MenuExercises {
         static void Main (string[] args)
         {
             int choice = 0;
@@ -13,58 +13,58 @@ namespace exercicios {
 
                 switch (choice) {
                     case 1:
-                        ExerciseOne.One(null);
+                        ExerciseOne.PrintNumbers(null);
                         break;
                     case 2:
-                        ExerciseTwo.Two(null);
+                        ExerciseTwo.SumIntNumbers(null);
                         break;
                     case 3:
-                        ExerciseThree.Three(null);
+                        ExerciseThree.PrintOddNumbers(null);
                         break;
                     case 4:
-                        ExerciseFour.Four(null);
+                        ExerciseFour.CalculateAgeMedia(null);
                         break;
                     case 5:
-                        ExerciseFive.Five(null);
+                        ExerciseFive.AskAgeInformAveragePercentage(null);
                         break;
                     case 6:
-                        ExerciseSix.Six(null);
+                        ExerciseSix.ElectronicBallotBox(null);
                         break;
                     case 7:
-                        ExerciseSeven.Seven(null);
+                        ExerciseSeven.CalculateMoneySpentBySmoker(null);
                         break;
                     case 8:
-                        ExerciseEight.Eight(null);
+                        ExerciseEight.CheckMultiple(null);
                         break;
                     case 9:
-                        ExerciseNine.Nine(null);
+                        ExerciseNine.CheckTheBiggestNumber(null);
                         break;
                     case 10:
-                        ExerciseTen.Ten(null);
+                        ExerciseTen.CheckTheBiggestAndEqualNumbers(null);
                         break;
                     case 11:
-                        ExerciseEleven.Eleven(null);
+                        ExerciseEleven.SplitNumbers(null);
                         break;
                     case 12:
-                        ExerciseTwelve.Twelve(null);
+                        ExerciseTwelve.SumOddAndEvenNumbers(null);
                         break;
                     case 13:
-                        ExerciseThirteen.Thirteen(null);
+                        ExerciseThirteen.ShowBiggestValue(null);
                         break;
                     case 14:
-                        ExerciseFourteen.Fourteen(null);
+                        ExerciseFourteen.SortValues(null);
                         break;
                     case 15:
-                        ExerciseFifteen.Fifteen(null);
+                        ExerciseFifteen.Show3And5multiples(null);
                         break;
                     case 16:
-                        ExerciseSixteen.Sixteen(null);
+                        ExerciseSixteen.CalculateIncomeTax(null);
                         break;
                     case 17:
-                        ExerciseSeventeen.Seventeen(null);
+                        ExerciseSeventeen.PrintMultiplicationTable(null);
                         break;
                     case 18:
-                        ExerciseEighteen.Eighteen(null);
+                        ExerciseEighteen.CalculatePriceOfApples(null);
                         break;
                     default:
                         break;
