@@ -10,23 +10,21 @@ namespace ProwayExercises
             Console.WriteLine("Calcular a média de idade de uma turma qualquer. ");
             Console.WriteLine("O algoritmo deve parar quando for digitada a idade igual a zero.");
 
-            int media;
+            double media;
             int t = 0;
-            int age;
-            int sumAge = 0;
+            double age;
+            double sumAge = 0;
 
             while (true) {
                 Console.WriteLine("Informe a idade:");
-                age = Convert.ToInt32(Console.ReadLine());
-                if(age != 0){
+                age = Convert.ToDouble(Console.ReadLine());
+                if (age != 0){
                     sumAge += age;
                     t++;
-                    media = sumAge / t;
-                    Console.WriteLine($"A média das idades é igual a: {media}");
+                    media = (sumAge / t);
+                    Console.WriteLine($"A média das idades é igual a:{String.Format(@"{0,6:N2}", media)}");
                 }
-                else{
-                    break;
-                }
+                else break;
             }
             Console.ReadLine();
         }
