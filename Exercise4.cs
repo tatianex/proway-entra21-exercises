@@ -14,7 +14,8 @@ namespace ProwayExercises
             int t = 0;
             int age;
             int sumAge = 0;
-            while(true){
+
+            while (true) {
                 Console.WriteLine("Informe a idade:");
                 age = Convert.ToInt32(Console.ReadLine());
                 if(age != 0){
@@ -27,8 +28,6 @@ namespace ProwayExercises
                     break;
                 }
             }
-
-            Console.WriteLine("******************* \n Fim do exercício 4");
             Console.ReadLine();
         }
     }
