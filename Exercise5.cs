@@ -25,6 +25,7 @@ namespace ProwayExercises
                 }
             }
             double percentageWomem = 0D;
+            Console.Write($"Existem {groupWomem} mulheres entre 18 e 35 anos.\n");
             percentageWomem = ((Convert.ToDouble(groupWomem) / 5) * 100);
             Console.WriteLine($"A porcentagem de mulheres maiores de 18 e menores de 35 anos é de: {percentageWomem} %\n");
             Console.ReadLine();
