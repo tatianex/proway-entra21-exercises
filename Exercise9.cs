@@ -14,11 +14,11 @@ namespace ProwayExercises
             ));
             
             Console.WriteLine("Informe o primeiro número");
-            int n1 = Convert.ToInt32(Console.ReadLine());
+            double n1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Informe o segundo número");
-            int n2 = Convert.ToInt32(Console.ReadLine());
+            double n2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Informe o terceiro número");
-            int n3 = Convert.ToInt32(Console.ReadLine());
+            double n3 = Convert.ToDouble(Console.ReadLine());
 
             if (n1 > (n2 + n3)){
                 Console.WriteLine("O primeiro número é maior do que a soma o 2º e o 3º\n");
