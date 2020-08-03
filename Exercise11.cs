@@ -14,15 +14,24 @@ namespace ProwayExercises
             ));
 
             Console.WriteLine("Informe o primeiro número");
-            int a = Convert.ToInt32(Console.ReadLine());
+            string firstNumber = Console.ReadLine();
             Console.WriteLine("Informe o segundo número");
-            int b = Convert.ToInt32(Console.ReadLine());
+            string secondNumber = Console.ReadLine();
+            int a;
+            int b;
 
-            if (b != 0){
+            try {
+                a  = Int32.Parse(firstNumber);
+                b = Int32.Parse(secondNumber);
+                if (b != 0){
                 int c = a / b;
                 Console.WriteLine($"{a} dividido por {b} é igual a: {c}\n");
+                }
+                else Console.WriteLine("DIVISÃO POR ZERO \n");
             }
-            else Console.WriteLine("DIVISÃO POR ZERO \n");
+            catch (System.Exception) {
+                Console.WriteLine("Algum dos números deve estar em formato errado. Tente novamente");
+            }
 
             Console.ReadLine();
         }
