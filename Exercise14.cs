@@ -10,7 +10,7 @@ namespace ProwayExercises
 
             int[] numbers = new int[3];
 
-            for (int i = 0; i < 3; i++) {
+            for (int i = 0; i < numbers.Length; i++) {
                 Console.WriteLine($"Informe o {i + 1}º valor: ");
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
