@@ -15,7 +15,7 @@ namespace ProwayExercises
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            int biggestNumber = 0;
+            int biggestNumber = int.MinValue;
 
             foreach (int number in numbers) {
                 if (number > biggestNumber) biggestNumber = number;
