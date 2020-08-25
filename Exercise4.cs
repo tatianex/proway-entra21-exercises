@@ -18,7 +18,7 @@ namespace ProwayExercises
             while (true) {
                 Console.WriteLine("Informe a idade:");
                 age = Convert.ToDouble(Console.ReadLine());
-                if (age != 0) {
+                if (age != 0){
                     sumAge += age;
                     t++;
                     media = (sumAge / t);

@@ -20,7 +20,7 @@ namespace ProwayExercises
             Console.WriteLine("Informe o terceiro número");
             double n3 = Convert.ToDouble(Console.ReadLine());
 
-            if (n1 > (n2 + n3)) {
+            if (n1 > (n2 + n3)){
                 Console.WriteLine("O primeiro número é maior do que a soma o 2º e o 3º\n");
             }
             else Console.WriteLine("O primeiro número não é maior do que a soma do 2º e o 3º\n");
