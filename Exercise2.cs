@@ -10,7 +10,7 @@ namespace ProwayExercises
             Console.WriteLine("Imprimir a soma dos números inteiros de 1 a 100");
             int sum = 0;
 
-            for(int x = 1; x < 101; x++){
+            for (int x = 1; x < 101; x++) {
                 sum += x;
             }
             

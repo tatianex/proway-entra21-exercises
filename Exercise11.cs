@@ -17,15 +17,16 @@ namespace ProwayExercises
             string firstNumber = Console.ReadLine();
             Console.WriteLine("Informe o segundo número");
             string secondNumber = Console.ReadLine();
+            
             int a;
             int b;
 
             try {
                 a  = Int32.Parse(firstNumber);
                 b = Int32.Parse(secondNumber);
-                if (b != 0){
-                int c = a / b;
-                Console.WriteLine($"{a} dividido por {b} é igual a: {c}\n");
+                if (b != 0) {
+                    int c = a / b;
+                    Console.WriteLine($"{a} dividido por {b} é igual a: {c}\n");
                 }
                 else Console.WriteLine("DIVISÃO POR ZERO \n");
             }

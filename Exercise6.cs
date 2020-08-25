@@ -41,7 +41,7 @@ namespace ProwayExercises
                 string m = Console.ReadLine();
                 int menu = Convert.ToInt32(m);
 
-                switch (menu){
+                switch (menu) {
                     case 1: // CADASTRO
                         CreateCandidate();
                         break;
@@ -64,7 +64,7 @@ namespace ProwayExercises
             for (int i = 0; i < 2; i++){
                 Console.WriteLine("Para cadastrar informe sua senha: ");
                 password = Console.ReadLine();
-                if (password == "Pa$$w0rd"){
+                if (password == "Pa$$w0rd") {
                     Console.WriteLine("Informe o nome do primeiro candidato");
                     candidateA = Console.ReadLine();
                     Console.WriteLine("Informe o nome do segundo candidato");
@@ -102,10 +102,10 @@ namespace ProwayExercises
                 orderby vote
                 select vote).Count();
 
-            if (totalVotesA == totalVotesB){
+            if (totalVotesA == totalVotesB) {
                 Console.WriteLine("SEGUNDO TURNO");
             }
-            else if (totalVotesA > totalVotesB){
+            else if (totalVotesA > totalVotesB) {
                 Console.WriteLine($"O candidato {candidateA} fez mais votos, totalizando {totalVotesA} votos. \n");
             }
             else Console.WriteLine($"O candidato {candidateB} fez mais votos, totalizando {totalVotesB} votos. \n");
