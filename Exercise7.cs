@@ -16,13 +16,13 @@ namespace ProwayExercises
             Console.WriteLine("Informe há quantos anos a pessoa fuma");
             int yearsSmoking = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Informe a quantidade de cigarros fumados por dia");
-            int cigarettes = Convert.ToInt32(Console.ReadLine());
+            int cigarettesPerDay = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Informe o valor que você geralmente paga pela carteira de cigarro");
             double cigarettesPrice = Convert.ToDouble(Console.ReadLine());
 
             int totalCigarettesInBox = 20;
             var totalDaysSmoking = yearsSmoking * 365;
-            var totalCigarrettesSmoked = cigarettes * totalDaysSmoking;
+            var totalCigarrettesSmoked = cigarettesPerDay * totalDaysSmoking;
             var totalBoxesSmoked = totalCigarrettesSmoked / totalCigarettesInBox;
             var totalValueSpended = totalBoxesSmoked * cigarettesPrice;
             

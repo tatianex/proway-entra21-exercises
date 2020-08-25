@@ -61,7 +61,7 @@ namespace ProwayExercises
         static void CreateCandidate(){
             string password = "Pa$$w0rd";
 
-            for (int i = 0; i < 2; i++){
+            for (int i = 0; i < 2; i++) {
                 Console.WriteLine("Para cadastrar informe sua senha: ");
                 password = Console.ReadLine();
                 if (password == "Pa$$w0rd"){

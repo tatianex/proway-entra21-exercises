@@ -21,7 +21,7 @@ namespace ProwayExercises
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            foreach(int number in numbers){
+            foreach (int number in numbers) {
                 if (number % 2 == 0) sumEven += number;
                 else sumOdd += number;
             }
