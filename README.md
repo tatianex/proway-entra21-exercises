@@ -1,6 +1,7 @@
 # proway-entra21-exercises
 
 1. Imprimir valores
+
 1.A **Imprimir** os números de 1 a 10 de forma crescente
 
 1.B **Imprimir** os números de 1 a 10 de forma decrescente
