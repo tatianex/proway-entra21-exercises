@@ -2,13 +2,13 @@
 
 1. Imprimir valores
 
-1.A **Imprimir** os números de 1 a 10 de forma crescente
+A. **Imprimir** os números de 1 a 10 de forma crescente
 
-1.B **Imprimir** os números de 1 a 10 de forma decrescente
+B. **Imprimir** os números de 1 a 10 de forma decrescente
 
-1.C **Imprimir** os números de 1 a 10 de forma crescente, mas apenas aqueles que forem pares
+C. **Imprimir** os números de 1 a 10 de forma crescente, mas apenas aqueles que forem pares
 
-1.D **Imprimir** os números de 10 a 1 de forma decrescente, mas apenas aqueles que forem ímpares
+D. **Imprimir** os números de 10 a 1 de forma decrescente, mas apenas aqueles que forem ímpares
 
 2. **Imprimir a soma** dos números inteiros de 1 a 100
 
