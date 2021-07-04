@@ -1,6 +1,6 @@
 # proway-entra21-exercises
 
-1.A Imprimir os números de 1 a 10 de forma crescente
+1.A Imprimir os números de 1 a 10 de forma crescente \n
 1.B Imprimir os números de 1 a 10 de forma decrescente
 1.C Imprimir os números de 1 a 10 de forma crescente, mas apenas aqueles que forem pares
 1.D Imprimir os números de 10 a 1 de forma decrescente, mas apenas aqueles que forem ímpares
