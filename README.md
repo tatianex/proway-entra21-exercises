@@ -1,11 +1,17 @@
 # proway-entra21-exercises
 
-1.A Imprimir os números de 1 a 10 de forma crescente \n
+1.A Imprimir os números de 1 a 10 de forma crescente
+
 1.B Imprimir os números de 1 a 10 de forma decrescente
+
 1.C Imprimir os números de 1 a 10 de forma crescente, mas apenas aqueles que forem pares
+
 1.D Imprimir os números de 10 a 1 de forma decrescente, mas apenas aqueles que forem ímpares
+
 2. Imprimir a soma dos números inteiros de 1 a 100
+
 3. Imprimir todos os números ímpares menores de 200
+
 4. Calcular a média de idade de uma turma qualquer. O algoritmo deve parar  quando for digitada a idade igual a zero.
 5. Criar um algoritmo que peça o nome e a idade de 5 mulheres. Após informar estes dados, o programa deve mostrar apenas % de mulheres que estão com idade entre 18 e 35.
 6. Criar um algoritmo que simule uma urna eletrônica. Esta urna deve possuir dois candidatos e possui três modos. O primeiro é o modo de CADASTRO, onde o sistema pergunta o nome de cada um dos dois candidatos. Por medidas de segurança, para poder cadastrar um candidato na urna o sistema deve solicitar ao usuário a senha para poder ter acesso (a senha do sistema é Pa$$w0rd). O segundo modo é o modo de VOTOS, onde o usuário informa 1 para votar no primeiro candidato e 2 para votar no segundo candidato. O terceiro modo, é o modo de APURAÇÃO DE VOTOS, onde o sistema verifica qual candidato tem mais votos. Caso o número de votos seja igual, o sistema deve imprimir a mensagem "SEGUNDO TURNO", caso contrário deve imprimir o nome do candidato vencedor e o número de votos que ele obteve.
